@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" /> 
+		<title>Salva un maialino</title>
+		<link rel="shortcut icon" href="../../img/favicon/favicon.ico" />
+		<link rel="stylesheet" type="text/css" href="../../style/ricettario.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!-- METADATI DC -->
+		<meta name="DC.Title" content="Salva un maialino">
+		<meta name="DC.Creator" content="Sonia Gualandi">
+		<meta name="DC.Subject" content="Ricette vegetali">
+		<meta name="DC.Description" content="Raccolta di ricette vegetali">
+		<meta name="DC.Publisher" content="AlterVista">
+		<meta name="DC.Date" content="14/02/24">
+		<meta name="DC.Format" content="Risorsa digitale">
+		<meta name="DC.Language" content="it">
+	</head>
+
+	<body>
+		<!-- HEADER -->
+		<header class="header">
+			<img class="img-center" src="../../img/header2.png" alt="scritta" title="if we are what we eat, I'm fast, cheap and easy" >
+		</header>
+
+		<!-- NAVBAR -->
+		<nav>
+			<div class="nav">
+				<a id="home" href="../../index.html" title="home">Home</a>
+				<div class="dropdown" id="drop-ricette">
+					<p class="dropbtn">Le ricette <i class="fa fa-caret-down"></i></p>
+					<div class="dropdown-content">
+						<ol>
+							<li><a href="#primavera">Primavera&#127800;</a></li>
+							<li><a href="#estate">Estate&#127774;</a></li>
+							<li><a href="ricettario.html" title="autunno">Autunno&#127810;</a></li>
+							<li><a href="#inverno">Inverno&#9924;</a></li>
+						</ol>
+					</div>
+				</div>	
+
+				<div class="dropdown" id="profilo">
+					<p class="dropbtn">Profilo<i class="fa fa-caret-down"></i></p>
+					<div class="dropdown-content">
+						<ol>
+							<li><a href="#preferiti">preferiti&hearts;</a></li>
+							<li><a href="#punti">i miei punti&#127808;</a></li>
+							<li><a href="#animali">i miei animali&#128055;</a></li>
+						</ol>
+					</div>
+				</div>
+				<input type="text" placeholder="Cerca...">
+			</div>	
+		</nav>
+
+		<main>
+			<!-- TITOLO -->
+			<div id="titolo-principale">
+
+				<!-- BREADCRUMB -->
+				<div class="breadcrumb">
+					<ul>
+  						<li><a href="../../index.html">Home</a></li>
+  						<li id="fall">Autunno</li>
+					</ul>
+				</div>
+			</div>
+
+			<!-- TAB -->
+			<div class="tab">
+  				<p>Primavera</p>
+  				<p>Estate</p>
+  				<p id="Autunno">Autunno</p>
+  				<p>Inverno</p>
+			</div>
+
+			<!-- SEARCH BUTTON -->
+			<form class="search">
+				 <input type="text" placeholder="&#128269;Cerca.." name="cerca">
+			</form>
+
+			<!-- 2 COLONNE -->	
+ 			<section class="ricette">
+					<div class="row">
+						<h2>Atunno</h2>
+					</div>
+					<!-- 1°COLONNA -->
+					<div class="row">
+						<div class="column-1">
+						<div class="card-1">
+  							<h1>Pumpkin spice muffin </h1> 
+							<p id="preferiti"><a href="#preferiti">&hearts;Aggiungi ai preferiti</a></p>
+							<p id="cucina"><a href="../item/item.html" title="muffin">&#128298;Inizia a cucinare</a></p>
+						</div>
+						</div>
+						<!-- 1°COLONNA-2°CARD -->
+						<div class="column-2">
+						<div class="card-2">
+	  						<h1>Cinnamon rolls</h1> 
+						   	<p class="preferiti"><a href="#preferiti">&hearts;Aggiungi ai preferiti</a></p>
+							<p class="cucina"><a href="#cucina">&#128298;Inizia a cucinare</a></p>
+						</div>
+						</div>
+						<!-- 1°COLONNA-3°CARD -->
+						<div class="column-3">
+						<div class="card-3">
+  							<h1>Tagliatelle ai funghi</h1> 
+							<p class="preferiti"><a href="#preferiti">&hearts;Aggiungi ai preferiti</a></p>
+							<p class="cucina"><a href="#cucina">&#128298;Inizia a cucinare</a></p>
+						</div>
+						</div>
+					</div>
+					<!-- 2°COLONNA -->
+					<div class="row">	
+						<div class="column-2-1">
+						<div class="card-4">
+  							<h1>Caldarroste</h1> 
+							<p class="preferiti"><a href="#preferiti">&hearts;Aggiungi ai preferiti</a></p>
+							<p class="cucina"><a href="#cucina">&#128298;Inizia a cucinare</a></p>
+						</div>
+						</div>
+						<!-- 2°COLONNA-5°CARD -->
+						<div class="column-2-2">
+						<div class="card-5">
+  							<h1>Zuppa di ceci</h1> 
+							<p class="preferiti"><a href="#preferiti">&hearts;Aggiungi ai preferiti</a></p>
+							<p class="cucina"><a href="#cucina">&#128298;Inizia a cucinare</a></p>
+						</div>
+						</div>
+						<!-- 2°COLONNA-6°CARD -->
+						<div class="column-2-3">
+						<div class="card-6">
+  							<h1>Falafel di ceci</h1> 
+							<p class="preferiti"><a href="#preferiti">&hearts;Aggiungi ai preferiti</a></p>
+							<p class="cucina"><a href="#cucina">&#128298;Inizia a cucinare</a></p>
+						</div>
+						</div>	
+					</div>			
+			</section>
+
+			<!-- PAGINATION -->
+				<div class="pagination">
+					<a href="#">&laquo;</a>
+					<a href="#1">1</a>
+					<a href="#2">2</a>
+					<a class="active" href="#3">3</a>
+					<a href="#">&raquo;</a>
+				</div>	
+		</main>
+
+	<!-- piede di pagina -->
+	<footer>
+		<div class="pre-footer">
+			<h3>Ci trovi anche su:</h3>
+				<a href="#facebook" class="fa fa-facebook"></a>
+				<a href="#twitter" class="fa fa-twitter"></a>
+				<a href="#instagram" class="fa fa-instagram"></a>
+				<a href="#youtube" class="fa fa-youtube"></a>
+		</div>
+			<div class="footer">Licenze Creative Commons | <a href="../../webProjectPlan/project.html" title="Web Project Plan">Web Project Plan</a></div>
+			<div class="post-footer">&copy; Sonia Gualandi IU a.a.2022/23</div>
+	</footer>	
+	</body>
+</html>
